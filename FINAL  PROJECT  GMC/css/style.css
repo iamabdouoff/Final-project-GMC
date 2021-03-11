@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Dosis', sans-serif;
+    width: 100%;
+}
+
+nav{
+    display: inline-flex;
+    background-color: #3c0470;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    margin-top: 0%;
+    
+}
+div.logo{
+    width: fit-content;
+    margin: 0%;
+    padding-top: 13px;
+    padding-left: 5%;
+}
+#logo{
+    width: 70px;
+    height: 60px;
+    
+    padding: 0%;
+    margin: 0%;
+
+}
+
+label.title {
+    color: white;
+    font-size: 120%;
+    line-height: 80px;
+    padding: 0 10px;
+    font-weight: 600;
+    
+    
+}
+
+
+nav ul{
+    position: absolute ;
+    right: 0px;
+    margin-right: 10%;
+    
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav a {
+    color: white;
+    font-weight: 600;
+    font-size: 80%;
+    padding: 7px 10px;
+    border-radius: 3px;
+    
+}
+
+a.active ,a:hover {
+    background-color: #ff6347;
+    transition: .5s;
+}
+
+#ph1{
+    width: 100%;
+    z-index: -1;
+}
+
+.checkbtn{
+    font-size: 140%;
+    color: white;
+    line-height: 80px;
+    margin-right: 20px;
+    margin-left: 20px;
+    position: absolute;
+    right: 0px;
+    float:right;
+    cursor: pointer;
+    display: none;
+}
+
+section.pos{
+    width: 100%;
+    padding-top: 20%;
+    display: flex;
+    color: rgb(118, 50, 185);
+    margin-bottom: 300px;
+
+}
+
+section.pos img{
+    width: 50%;
+    
+}
+section.pos div{
+    width: 50%;
+    padding-left: 30px;
+    padding-top: 40px;
+}
+
+#check {
+    display: none;
+}
+
+
+.pos div h1 {
+    font-size: 300%;
+    font-family: 'Dosis', sans-serif;
+    font-weight:bolder;
+}
+
+.pos div p {
+    font-size: 130%;
+    font-weight: 500;
+    color: black;
+}
+
+div.about{
+    background-color:wheat;
+    
+}
+#aboutt{
+    color:#500685;
+}
+#aboutp{
+    color:#24133f ;
+    padding-top: 20px;
+}
+section.pos2{
+    margin-top: 120px;
+}
+
+.pos2 h1{
+    text-align: center;
+    font-size: 300%;
+    color: #ff6347;
+}
+section.pos2 p{
+    width: fit-content;
+    color: rgb(17, 85, 8);
+    padding: 10px ;
+    background-color: rgb(147, 252, 116);
+    border-radius: 20px;
+    margin-left: 30px ;
+}
+
+
+section.pos2 section.boxes{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 500px;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 40px;
+    
+}
+section.boxes div {
+    margin-bottom: 50px;
+    font-size: 70%;
+    width: fit-content;
+    height: fit-content;
+}
+
+
+section.pos2 img {
+    width:100%;
+    height: 400px ;
+    
+}
+
+.boxes div :hover {
+    box-shadow:rgba(128, 128, 128, 0.411) 10px 10px 10px 10px;
+    
+}
+
+
+#box1,#box2,#box3 {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    background-color: #fc7c66;
+    margin-bottom: 50px;
+    padding: 10px;
+    border-radius: 120px;
+    box-shadow: rgba(0, 0, 0, 0.116) 5px 5px 5px 5px;
+
+}
+
+#box1{
+    margin-left: 40px;
+}
+#box2{
+    margin-left: 150px;
+}
+#box3{
+    margin-left: 260px;
+}
+
+section.pos3 img{
+    width: 25%;
+    padding: 10px;
+
+}
+
+#comment{
+    padding-top: 10px;
+    width: 60%;
+
+}
+
+
+.pos3 h1 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 60px;
+
+}
+
+.feedback {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: rgba(54, 1, 54, 0.596);
+}
+
+
+#form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 50px;
+    background-color: #fc7c66;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+#email {
+    border-radius: 15px;
+    height: 30px;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+#msg{
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 10px;
+
+}
+#bouton{
+    width: 20%;
+    margin-left:40% ;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+
+footer{
+    background-color:#180d2b ;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+footer img {
+    width: 100px;
+}
+
+
+
+
+
+
+
+/*--------------------max width 952 ---------------------------*/
+
+@media (max-width:952px ) {
+    label.title{
+        font-size: 30px;
+        
+    }
+    div.logo{
+        padding-left:20px ;
+    }
+    nav a {
+        font-size: 16px;
+        
+    }
+    section.pos {
+        padding-top: 200px;
+        margin-left: 0%;
+        
+        margin-bottom: 300px;
+
+    }
+    section.pos h1, #aboutt {
+        color:#ff6347 ;
+    }
+
+    section.pos p, #aboutp{
+        color: rgb(255, 255, 255);
+        padding-bottom: 600px;
+    }
+
+    .about {
+        width: 100%;
+    }
+
+    section.pos img{
+        width: 100%;
+        z-index: -2;
+        position: absolute;
+    }
+
+    section.pos div {
+        width: 100%;
+        height: fit-content;
+        background-color:#50068557 ;
+    }
+
+    section.pos2 section.boxes{
+        display: grid;
+        grid-template-columns: 70%;
+        grid-template-rows: 500px;
+        margin-left: 15%;
+        
+    }
+    #box1,#box2,#box3 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #fc7c66;
+        margin-bottom: 50px;
+        padding: 10px;
+        border-radius: 0px;
+        box-shadow: rgba(0, 0, 0, 0.116) 5px 5px 5px 5px;
+        margin-left: 0;
+    
+    }
+
+    #form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        padding: 50px;
+        background-color: #fc7c66;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    footer{
+        font-size: 50%;
+    }
+    footer img{
+        width: 50px;
+    }
+
+
+
+}
+
+
+
+
+
+/*  ------------------------------------max width 858*/
+@media (max-width:858px ){
+
+.checkbtn{
+    display: block;
+}
+nav ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color:#3c0470 ;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: .5s;
+}
+nav ul li {
+    display: block;
+}
+nav a {
+    font-size: 20px;
+    
+}
+a.active{
+    background-color: #3c0470;
+}
+.active:hover{
+    background-color:#ff6347 ;
+}
+#check:checked ~ ul{
+    left: 0;
+}
+section.pos p, #aboutp{
+    color: rgb(255, 255, 255);
+    padding-bottom: 400px;
+}
+}
+
+
+
+
+/*---------------------------- width 400 *******/
+@media (max-width:400px ){
+    label.title{
+        font-size: 20px;
+    }
+    section.pos p, #aboutp{
+        color: rgb(255, 255, 255);
+        padding-bottom: 200px;
+    }
+}
